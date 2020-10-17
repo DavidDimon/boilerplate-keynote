@@ -4,7 +4,7 @@
   "scripts": {
     "start": "mdx-deck src/deck.mdx",
     "build": "mdx-deck build src/deck.mdx",
-    "publish": "yarn build && gh-pages -d public",
+    "publish:keynote": "yarn build && gh-pages -d public",
     "help": "mdx-deck"
   },
   "devDependencies": {
