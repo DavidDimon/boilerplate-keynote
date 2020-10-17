@@ -1,0 +1,19 @@
+{
+  "name": "boilerplate-keynote",
+  "version": "4.1.1",
+  "scripts": {
+    "start": "mdx-deck src/deck.mdx",
+    "build": "mdx-deck build src/deck.mdx",
+    "publish": "yarn build && gh-pages -d public",
+    "help": "mdx-deck"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0",
+    "mdx-deck": "^4.1.1"
+  },
+  "dependencies": {
+    "code-surfer": "^3.1.1",
+    "styled-components": "^5.2.0",
+    "styled-system": "^5.1.5"
+  }
+}
